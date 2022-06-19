@@ -10,7 +10,7 @@
       </van-row>
     </div>
     <!-- ------------------------------------------------------------------- -->
-    <p class="title">最新音乐</p>
+    <p class="title">最新的音乐</p>
     <SongItem v-for="obj in hotList" :key="obj.id" :name="obj.name" :author="obj.song.artists[0].name" :id="obj.id"> </SongItem>
   </div>
 </template>
